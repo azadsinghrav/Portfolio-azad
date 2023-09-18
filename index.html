@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfoliyo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contect Me</a>
+              </li>
+           
+              
+            </ul>
+          
+        </div>
+      </nav>
+
+
+      <!--  -->
+      <main>
+        <section >
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 d-flex "><div class="profile">
+                <h1>Hi my name <span class="u-parpal">Azad Singh</span> and i am passionate 
+                  <br> <span id="element" class="u-parpal"></span></h1>
+              </div></div>
+              <div class="col-lg-6"><div class="profile-img"><img src="img/dami.jpg" alt=""></div></div>
+            </div>
+          </div>
+        </section>
+
+<hr class="container">
+
+<section class="section-m">
+  <div class="container">
+    <div class="row ">
+      <div class="com-heading">
+     
+        <h2>My <span class="u-parpal">Services</span></h2></div>
+      </div>
+<div class="row ">
+  <div class="col-lg-4">
+    <div class="com-box">
+      <div class="box-in-img">
+        <img src="img/ux-interface.png" alt="ux-interface">
+     
+      
+        <h4>ui/ux</h4>
+
+      </div>
+      
+      
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="com-box" >
+      <div class="box-in-img">
+        <img src="img/cool.png" alt="cool">
+        <h4>Html/Css/javaScript</h4>
+      </div>
+  </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="com-box">
+      <div class="box-in-img">
+        <img src="img/code.png" alt="code">
+
+        <h4>BootStrap</h4>
+      </div>
+    </div>
+    
+  </div>
+</div>
+    
+
+
+  </div>
+</section>
+
+
+<section class="section-m">
+          <div class="container">
+            <div class="row">
+              <div class="com-heading">
+     
+                <h2>My <span class="u-parpal">Projects</span></h2></div>
+              </div>
+            <div class="owl-carousel owl-theme" >
+                  <div class="item"><div class="live-pro"><a href="#"><img src="img/BCI.jpg" alt="BCI"></a></div></div>
+                  <div class="item"><div class="live-pro"><a href="http://diamond11.live/" target="_blank"><img src="img/D11.jpg" alt="Diamon11"></a></div></div>
+                  <div class="item"><div class="live-pro"><a href="https://my11fighters.com/" target="_blank"><img src="img/11f.jpg" alt="Diamon11"></a></div></div>
+                  <div class="item"><h4>4</h4></div>
+                  <div class="item"><h4>5</h4></div>
+                  <div class="item"><h4>6</h4></div>
+                  <div class="item"><h4>7</h4></div>
+                  <div class="item"><h4>8</h4></div>
+                  <div class="item"><h4>9</h4></div>
+                  <div class="item"><h4>10</h4></div>
+                  <div class="item"><h4>11</h4></div>
+                  <div class="item"><h4>12</h4></div>
+              </div>
+  
+              </div>
+           
+         
+        
+ </section>
+  </main>
+
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/all.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+<!-- <script>
+ var typed = new Typed('#element', {
+       strings: ['Ui/Ux Designer', '&amp; Web Designer'],
+       typeSpeed: 50,
+    })
+</script> -->
+  
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Ui/Ux Designer', '&amp; Web Designer'],
+      typeSpeed: 50,
+    });
+
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+            margin: 30,
+            responsiveClass: true,
+            autoplay: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1200: {
+                    items: 2
+                }
+            }
+});
+  </script>
+
+<!-- <script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+});
+</script> -->
+</body>
+</html>
