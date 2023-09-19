@@ -1,0 +1,90 @@
+@keyframes exampal_1 {
+    from{background-color: red;} to {background-color: yellow;}
+    
+}
+
+
+.exampal1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: exampal_1;
+    animation-duration: 5s;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/*============ exampale-2 */
+@keyframes exampale_2 {
+  0% { background-color: red;}
+  25%{background-color: yellow;}
+  50%{background-color: blue;}
+  100%{background-color: green;
+    border-radius: 50px;} 
+}
+
+/* the element to apply the animation to  */
+.exampal2{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation-name: exampale_2;
+    animation-duration: 5s;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    /* transition: all  ease-in; */
+    border-radius: 10px;
+    
+}
+
+/*====================== exampale-3 ===================*/
+@keyframes exmapal_3 {
+    0% {background-color: blue; left: 0px; top:0px;}
+    25%{background-color: red; left: 200px; top: 0px;}
+    50%{background-color: yellow; left: 200px; top:200px;}
+    75%{background-color: rgb(51, 219, 51); left: 0px; top:200px;}
+    100%{background-color: green; left: 0px; top: 0px; }
+
+}
+
+.exampal3{
+    width: 100px;
+    height: 100px;
+    background-color:blue;
+    /* margin: 30px; */
+    position: relative;
+    animation-name:exmapal_3;
+    animation-duration: 4s;
+    text-align: center;
+    animation-iteration-count: 3;
+}
+
+
+/*========= exampal-4 delay animation== */
+@keyframes exampal_4 {
+    0%{background-color: red; left: 0px;top: 0px;}
+    25%{background-color:green ; left: 200px;top:0px;}
+    50%{background-color: yellow;left: 200px; top: 200px;}
+    75%{background-color: blue; left: 0px; top:200px ;}
+    100%{background-color:green ; left: 0px; top: 0px;}
+    
+}
+
+.exampal4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: exampal_4;
+    animation-duration: 4s;
+    text-align: center;
+    /* animation-delay: 2s; */
+
+    /*==================== allow negative value */
+    animation-delay: -2s; 
+    animation-iteration-count: 3;
+}
+
